@@ -1,6 +1,7 @@
 # The `common' part is automatically included (and possibly overriden by all
 # other flavors)
 common: &common
+    index_endpoint: https://index.docker.io
     mirroring:
         source: https://registry-1.docker.io
         source_index: https://index.docker.io
